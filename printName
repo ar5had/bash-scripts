@@ -1,0 +1,5 @@
+# -n option to prevent line break
+echo -n "Enter a name: "
+# read command takes input
+read name
+echo "Howdy $name"

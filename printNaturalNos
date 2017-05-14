@@ -1,0 +1,9 @@
+echo -n "input first no "
+read a 
+echo -n "input second no (greater than first)"
+read b 
+
+for (( no=$a; no<=$b; no++ ))
+do
+  echo "$no"
+done
