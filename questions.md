@@ -9,3 +9,4 @@ then
 echo "executing if case"
 fi
 ```
+3.  `-ne` Vs `-neq`

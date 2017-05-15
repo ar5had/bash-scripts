@@ -4,15 +4,15 @@ echo -n "Enter value of x between -100 and 100: "
 read x
 
 echo -n "Enter value of y between -100 and 100 except 0: "
-read y
+read $y
 
-while [[ x -lt -100 || x -gt 100 ]]
+while [[ $x -lt -100 || $x -gt 100 ]]
 do
-    echo -n "Enter value of x between -100 and 100: "
+    echo -n "Enter value of $x between -100 and 100: "
     read x
 done
 
-while [[ y -lt -100 || y -gt 100 || y -eq 0 ]]
+while [[ $y -lt -100 || $y -gt 100 || $y -eq 0 ]]
 do
     echo -n "Enter value of y between -100 and 100 except 0: "
     read y

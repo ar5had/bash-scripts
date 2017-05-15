@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -n "Enter Y/y/N/n: "
+read x
+
+if [[ "$x" == "Y" || "$x" == "y" ]]
+then
+  echo "Yes"
+elif [[ "$x" == "N" || "$x" == "n" ]]
+then
+  echo "No"
+fi

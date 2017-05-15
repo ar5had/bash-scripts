@@ -11,3 +11,9 @@
 * [interestin question on airthmatics](https://unix.stackexchange.com/questions/93029/how-can-i-add-subtract-etc-two-numbers-with-bash)
 
 * [Interesitng question about And/or conditions](http://stackoverflow.com/questions/16203088/bash-if-statement-with-multiple-conditions-throws-an-error)
+
+* `-eq` expects integer operands, use `==` for strings. Bash doesn't float type so use `bc` for such cases.
+
+* [gnu bash manual](https://www.gnu.org/software/bash/manual/bashref.html)
+
+* for not equal operator use `-ne` instead of `-neq`

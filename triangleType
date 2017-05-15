@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo -n "Enter length of sides of triangle - x, y, z: "
+read x 
+read y
+read z
+
+if [ $x -ne $y ] && [ $y -ne $z ] && [ $z -ne $x ]
+then
+  echo "SCALENE"
+elif [ $x -eq $y ] && [ $y -eq $z ]
+then
+  echo "EQUILATERAL"
+else
+  echo "ISOSCELES"
+fi
