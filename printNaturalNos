@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -n "input first no "
 read a 
 echo -n "input second no (greater than first)"
