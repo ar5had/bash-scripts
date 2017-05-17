@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -n "Enter expression: "
+read expression
+
+# using redirection operator new subshell will not open
+ans=$(bc <<< "scale=4;$expression")
+# another way to do the above thing is using pipes and command substitution
+# ans=$(echo "scale=4;$expression" | bc)
+printf "%.3f" $ans

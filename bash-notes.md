@@ -17,3 +17,15 @@
 * [gnu bash manual](https://www.gnu.org/software/bash/manual/bashref.html)
 
 * for not equal operator use `-ne` instead of `-neq`
+
+* learn pipes, subshell and redirection(`>`, `<`, `<<<`, `<<`, `>>`, `>>>`)
+
+* printf in bash
+
+* bc -l gives output max no of decimal values
+
+* scale in bc defaults to 0
+
+* scale variable in bc doesn't do round off
+
+* printf's .nf format specifier does round off digits
