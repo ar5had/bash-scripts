@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rows=63
+columns=100
+
+echo 'Fractal Program'
