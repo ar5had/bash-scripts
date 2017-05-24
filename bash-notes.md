@@ -29,3 +29,5 @@
 * scale variable in bc doesn't do round off
 
 * printf's .nf format specifier does round off digits
+
+* [cut command](http://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html)

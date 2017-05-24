@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in {1..100}
+do
+    read x
+    cut -c2,7 <<< $x
+done
