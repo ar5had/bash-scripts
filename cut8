@@ -2,6 +2,6 @@
 
 for i in {1..100}
 do
-    read X
-    cut -c-4 <<< $X
+    read x
+    cut -d' ' -f1-3 <<< $x
 done
