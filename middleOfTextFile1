@@ -1,0 +1,2 @@
+#!/bin/bash
+head -n2 cut#1 | tail -n1 
