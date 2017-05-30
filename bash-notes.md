@@ -33,3 +33,9 @@
 * [cut command](http://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html)
 
 * [head, tail, command](http://www.linfo.org/head.html)
+
+* Difference echo $line b/w echo "$line"-
+
+Double quotes are required to preserve multiple spacing. In absence of that, it replaces sequences of "one or more" blanks with single spaces. That's exactly what's demanded by the problem. Hence, works !
+
+* Difference between `[:space:]` and ` `
