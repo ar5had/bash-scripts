@@ -34,8 +34,12 @@
 
 * [head, tail, command](http://www.linfo.org/head.html)
 
+* [tr](http://www.thegeekstuff.com/2012/12/linux-tr-command/)
+
 * Difference echo $line b/w echo "$line"-
 
 Double quotes are required to preserve multiple spacing. In absence of that, it replaces sequences of "one or more" blanks with single spaces. That's exactly what's demanded by the problem. Hence, works !
 
 * Difference between `[:space:]` and ` `
+
+* [Sort](https://en.wikipedia.org/wiki/Sort_(Unix))
