@@ -1,0 +1,3 @@
+#!/bin/bash
+paste -s 
+# replaces newlines with tab since default delimeter is tab

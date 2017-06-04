@@ -1,0 +1,2 @@
+#!/bin/bash
+cat ad1 | paste -d, - - - -
