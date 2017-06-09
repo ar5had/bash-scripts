@@ -1,0 +1,10 @@
+arr=()
+
+while read name
+do
+    arr=("${arr[@]}" "$name")   
+done
+
+farr=(${arr[@]/*[A|a]*/})
+
+echo ${farr[@]}

@@ -1,0 +1,9 @@
+#!/bin/bash
+arr=()
+
+while read name
+do
+    arr=("${arr[@]}" "$name")   
+done
+
+echo ${arr[@]}

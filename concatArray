@@ -1,0 +1,13 @@
+arr=()
+# [-n "$name"] makes sure while loop run evry time something is read into line
+# EOF on last line causes error so loop doesn't run for the last line
+# According to C, file must end with new line 
+# for more - https://stackoverflow.com/questions/12916352/shell-script-read-missing-last-line
+while read name || [ -n "$name" ]
+do
+    arr=(${arr[@]} $name)   
+done
+
+arr=(${arr[@]} ${arr[@]} ${arr[@]})
+
+echo ${arr[@]}

@@ -1,0 +1,10 @@
+arr=()
+
+while read name
+do
+    arr=("${arr[@]}" "$name")   
+done
+
+parr=${arr[@]/[A-Z]/.}
+
+echo ${parr[@]}

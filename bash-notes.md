@@ -46,3 +46,5 @@ Double quotes are required to preserve multiple spacing. In absence of that, it 
 * [Uniq](http://www.thegeekstuff.com/2013/05/uniq-command-examples/)
 * **Note:** `i` parameter findss unique ignoring cases
 * [Paste](http://www.theunixschool.com/2012/07/10-examples-of-paste-commanda-usage-in.html)
+
+* [Arrays](http://www.thegeekstuff.com/2010/06/bash-array-tutorial/)
