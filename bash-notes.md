@@ -48,3 +48,5 @@ Double quotes are required to preserve multiple spacing. In absence of that, it 
 * [Paste](http://www.theunixschool.com/2012/07/10-examples-of-paste-commanda-usage-in.html)
 
 * [Arrays](http://www.thegeekstuff.com/2010/06/bash-array-tutorial/)
+
+* [awk print examples](http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/) [awk if else examples](http://www.thegeekstuff.com/2010/02/awk-conditional-statements/) and [awk afs ors etc](http://www.thegeekstuff.com/2010/01/8-powerful-awk-built-in-variables-fs-ofs-rs-ors-nr-nf-filename-fnr/)

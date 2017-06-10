@@ -1,0 +1,9 @@
+read no
+arr=()
+for i in {1..$no}
+do
+    read X
+    arr=(${arr[@]} $X)
+done
+
+echo ${arr[@]} | tr " " "\n" | sort -n | uniq -u
